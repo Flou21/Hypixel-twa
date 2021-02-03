@@ -15,7 +15,7 @@
             <!-- Edit android:value to change the url opened by the Trusted Web Activity -->
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
-                android:value="https://sky.coflnet.com" />
+                android:value="https://sky.flou21.de" />
 
             <meta-data
                 android:name="asset_statements"
@@ -39,7 +39,17 @@
                 <!-- Edit android:host to handle links to the target URL-->
                 <data
                     android:scheme="https"
-                    android:host="sky.coflnet.com"/>
+                    android:host="sky.flou21.de"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ReviewActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="doom-fire" android:host="review" />
             </intent-filter>
         </activity>
     </application>

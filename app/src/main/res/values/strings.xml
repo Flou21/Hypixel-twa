@@ -5,7 +5,7 @@
             \"relation\": [\"delegate_permission/common.handle_all_urls\"],
             \"target\": {
                 \"namespace\": \"web\",
-                \"site\": \"https://sky.coflnet.com\"}
+                \"site\": \"https://sky.flou21.de\"}
         }]
     </string>
 </resources>
